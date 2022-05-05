@@ -704,6 +704,9 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 h2 {
@@ -755,7 +758,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: #000000c2;
   padding: 40px 40px 40px 40px;
 }
 
@@ -1041,4 +1044,12 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+}
+.contrast-bg h2 {
+  background-color: rgb(55 58 68 / 82%);
+}
+.contrast-bg p {
+  margin-top: -3%;
+  height: 20px;
+  background-color: rgb(55 58 68 / 82%);
 }
