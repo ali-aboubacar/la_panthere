@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
   background-size: 280px 280px;
 }
 
@@ -1045,11 +1044,6 @@ h4 {
     text-align: center;
   }
 }
-.contrast-bg h2 {
-  background-color: rgb(55 58 68 / 82%);
-}
-.contrast-bg p {
-  margin-top: -3%;
-  height: 20px;
-  background-color: rgb(55 58 68 / 82%);
+.contrast-bg {
+  background-color: rgb(78 79 83 / 55%);
 }
