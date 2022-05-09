@@ -1045,8 +1045,12 @@ h4 {
   }
 }
 .contrast-bg {
+  width: 90%;
+  background-color: rgb(78 79 83 / 55%);
+}
+.flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(78 79 83 / 55%);
+  padding-left: 0;
 }
