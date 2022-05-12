@@ -91,6 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
+  background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
 
@@ -783,12 +784,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #222222;
-  color: #ffffff !important;
+  background: #f3976c;
+  color: #000 !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #444040cc !important;
+  background: #c27956 !important;
   color: #ffffff !important;
 }
 
@@ -1038,6 +1039,10 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+}
+.black p,
+span {
+  color: #000 !important;
 }
 .contrast-bg {
   width: 90%;
