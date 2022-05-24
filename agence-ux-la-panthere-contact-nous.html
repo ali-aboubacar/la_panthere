@@ -92,12 +92,7 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-6">
-              <form
-                id="form_1"
-                novalidate
-                success-msg="Your message has been sent."
-                fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-              >
+              <form id="form_1" novalidate>
                 <div class="form-group">
                   <label for="name"> Nom </label>
                   <input
@@ -114,7 +109,7 @@
                     id="email"
                     name="e-mail"
                     class="form-control"
-                    type="e-mail"
+                    type="email"
                     required
                   />
                 </div>
@@ -137,7 +132,6 @@
                   ><textarea
                     id="message"
                     name="message"
-                    type="text"
                     class="form-control"
                     rows="4"
                     cols="50"
